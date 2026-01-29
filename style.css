@@ -1,0 +1,249 @@
+:root {
+  font-size: clamp(11px, 4vw, 18px);
+  --text: #412e29;
+  --border: #93a69b;
+  --bold: 400;
+  --regular: 300;
+}
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 1;
+  -webkit-tap-highlight-color: transparent;
+  font-family: Fraunces, serif;
+  font-weight: var(--regular);
+  letter-spacing: 0.1em;
+  z-index: 2;
+}
+@font-face {
+    font-family: "Fraunces";
+    src: url("assets/fonts/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Fraunces";
+    src: url("assets/fonts/Fraunces-Italic-VariableFont_SOFT,WONK,opsz,wght.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Great Vibes";
+    src: url("assets/fonts/GreatVibes-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  color: var(--text);
+}
+
+/* ====================================== */
+
+body {
+  background: rgb(245, 223, 226);
+  background-image: url(/assets/bg.avif);
+  background-size:cover;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+  align-items: center;
+}
+.invitation-section {
+  display: flex;
+  justify-content: center;
+}
+.img {
+  max-width: min(100%, 530px);
+  box-shadow: 0 0.5rem 20px rgba(0, 0, 0, 0.15);
+}
+/* === */
+
+.details-card {
+  background: rgb(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  width: min(100%, 400px);
+  align-self: stretch;
+  margin: 3rem auto;
+  box-shadow: 0 0.5rem 20px rgba(0, 0, 0, 0.15);
+  padding: 1rem;
+  border-radius: 1rem;
+
+}
+.title {
+  font-size: 1.5rem;
+  font-family: 'Fraunces', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  color: var(--text);
+  margin-bottom: 0.5em;
+  margin-top: 0.5rem;
+}
+.contacts {
+  margin-bottom: 1rem;
+  display: grid;
+  gap: 0.5em;
+  font-style: italic;
+}
+.contact a {
+  color: #7d9788;
+  font-weight: 400;
+}
+.location {
+  border: 0; 
+  width: 100%; 
+  aspect-ratio: 3 / 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .bg-flowers {
+  position: absolute;
+  z-index: 1;
+  scale: 2;
+}
+.fancy {
+  font-family: "Great Vibes", serif;
+}
+.italic {
+  font-style: italic;
+  line-height: 1.4;
+  font-weight: 450;
+}
+
+.tl {
+  left: 3.5rem;
+  top: 5rem;
+  max-width: 18vw;
+}
+.tr {
+  right: 3.5rem;
+  top: 3.5rem;
+  max-width: 15vw;
+}
+.bl {
+  bottom: 3.5rem;
+  left: 3rem;
+  max-width: 20vw;
+}
+.br {
+  right: 2rem;
+  bottom: 7rem;
+  max-width: 13vw;
+}
+
+/*************************************
+body {
+  min-height: 100dvh;
+  background: rgb(190, 169, 169);
+  display: flex;
+  text-align: center;
+  color: var(--text);
+}
+main {
+  position: relative;
+  display: grid;
+  margin-inline: auto;
+  place-content: center;
+  background: white;
+  width: min(100%, 600px);
+  max-height: 900px;
+  padding: 1.5rem 1.3rem;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 23rem;
+}
+.content * {
+  text-shadow: 0rem 0 2rem rgb(255, 255, 255);
+}
+h1 {
+  font-size: 2rem;
+  margin: 1.8rem 0;
+  display: flex;
+  gap: 0.8em;
+  align-items: flex-end;
+}
+.name {
+  width: 4.25em;
+}
+.name:first-of-type {
+  text-align: right;
+}
+.and {
+  font-size: 0.8em;
+}
+.date-container {
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 0 0.8rem 0;
+  font-size: 0.8rem;
+}
+.date {
+  font-size: 3rem;
+  padding-inline: 1rem;
+  margin-right: -0.1em;
+}
+.green-border {
+  width: 9em;
+  border-top: 2px solid var(--border);
+  border-bottom: 2px solid var(--border);
+  padding: 0.7em;
+}
+.year {
+  margin-bottom: 1.4rem;
+  font-size: 0.8rem;
+}
+.times {
+  margin-top: 1.8rem;
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.8rem;
+  margin-block: 1.8rem;
+  gap: 0.8em;
+}
+.contacts img {
+  width: 1.1rem;
+}
+.final {
+  font-size: 1.6rem;
+}
+ */
