@@ -48,7 +48,7 @@ a {
 
 body {
   background: rgb(245, 223, 226);
-  background-image: url(/assets/bg.avif);
+  background-image: url(./assets/bg.avif);
   background-size:cover;
 
   display: flex;
