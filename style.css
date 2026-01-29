@@ -102,6 +102,12 @@ body {
   aspect-ratio: 3 / 1;
 }
 
+@media screen and (min-width: 580px) {
+  .invitation-section {
+    padding-top: clamp(1rem, 3vw, 3rem);
+  }
+}
+
 
 
 
